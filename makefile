@@ -1,2 +1,2 @@
 all:
-	dart isolates.dart
+	dart2js --out=public/app.js app.dart

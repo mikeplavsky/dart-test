@@ -1,2 +1,2 @@
 all:
-	dart server.dart
+	dart isolates.dart

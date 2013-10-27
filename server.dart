@@ -1,3 +1,6 @@
+import 'dart:json';
+import 'french.dart';
+
 makeAdder(var addBy) {
   adder(var i) {
     return i + addBy;
@@ -8,7 +11,14 @@ makeAdder(var addBy) {
 var l = [1,2,3,4];
 var g = {"test": 1, "next": 2, "prev": "a"};
 
+var json1 = parse('{"x":12,"y":14}');
+
 main() {
+
+  hello();
+
+  print(json1);
+  print(json1["x"]);
 
   print("Yep!");
   print(l);

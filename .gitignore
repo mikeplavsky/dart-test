@@ -1,1 +1,4 @@
 *.swp
+*.js
+*.map
+*.deps

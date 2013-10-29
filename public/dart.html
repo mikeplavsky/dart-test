@@ -2,23 +2,21 @@
 <html>
 
   <head>
+
+    <link rel="import" href="stopwatch.html">
+
+    <script type="application/dart">
+      import 'package:polymer/init.dart';
+    </script>
+
+    <script src="packages/browser/dart.js"></script>
+
   </head>
 
 <body>
 
-  <div id="main"></div>
-
-  <div>
-    <input id="to-do-input" type="text" placeholder="what needs to be done">
-  </div>
-
-  <div>
-    <ul id="to-do-list">
-    </ul>
-  </div>
-
-  <script type="application/dart" src="app.dart"></script>
-  <script src="packages/browser/dart.js"></script>
+  <stop-watch>
+  </stop-watch>
 
 </body>
 
